@@ -1,0 +1,15 @@
+html, body{
+	height: 100%;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Arial;
+}
+
+.wrapper {}
+.screen1 {}
+.container {}
+.screen1__title {}
+.screen1__content {}
+.screen1__button {}
+.text {}
+.footer {}
