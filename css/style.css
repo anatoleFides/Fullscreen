@@ -34,12 +34,12 @@ html, body{
 .fullscreen {
 	min-height: 100vh;
 	padding: 20px 0;
-	background: #FFA07A;
+	background: url('../image/fullscreen.JPG') 0 -80px / cover no-repeat;
 	display: flex;
 
 }
 .fullscreen__container {
-	background: #A9A9A9;
+	/*background: #A9A9A9;*/
 	flex: 1 1 auto;
 	max-width: 1000px;
 	width: 100%;
@@ -49,15 +49,18 @@ html, body{
 	flex-direction: column;
 	justify-content: center;
 	padding: 0 40px;
+
 }
 .fullscreen__title {
 	font-size: 55px;
 	margin: 0 0 50px 0;
+	color: #48D1CC;
 }
 .fullscreen__content {
 	font-size: 22px;
 	line-height: 24px;
-	margin: 0 0 30px 0;
+	margin: 0 0 130px 0;
+	color: #4682B4;
 }
 .fullscreen__button {
 	text-decoration: none;
@@ -65,7 +68,7 @@ html, body{
 	font-weight: 700;
 	background: #ADFF2F;
 	padding: 10px;
-	align-self: center;#48D1CC;
+	align-self: center;
 	font-size: 25px;
 	text-transform: uppercase;
 	border-radius: 4px;
