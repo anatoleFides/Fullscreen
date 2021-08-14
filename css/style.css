@@ -22,22 +22,40 @@ html, body{
 	font-size: 14px;
 	line-height: 20px;
 	font-family: Arial;
+	color: #fff;
 }
-
 .wrapper {
 	min-height: 100vh;
-	background: #778899;
-
-}
-.screen1 {
-	min-height: 100vh;
-	padding: 20px;
 	background: #9ACD32;
+	display: flex;
+	flex-direction: column;
 
 }
-.container {}
-.screen1__title {}
-.screen1__content {}
-.screen1__button {}
-.text {}
+.fullscreen {
+	min-height: 100vh;
+	padding: 20px 0;
+	background: #FFA07A;
+	display: flex;
+
+}
+.fullscreen__container {
+	background: #C0C0C0;
+	flex: 1 1 auto;
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.fullscreen__title {
+	font-size: 55px;
+	padding: 0 0 50px 0;
+}
+.fullscreen__content {}
+.fullscreen__button {}
+.content {}
+.content__container{}
 .footer {}
+.footer__container{}
