@@ -29,6 +29,9 @@ html, body{
 	background: #9ACD32;
 	display: flex;
 	flex-direction: column;
+	position: relative;
+	top: 0;
+	transition: top 1s;
 }
 .container{
 	max-width: 1000px;
@@ -45,25 +48,25 @@ html, body{
 	flex: 1 1 auto;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+
 	padding: 0 40px;
 	position: relative;
 }
 .fullscreen__title {
 	font-size: 55px;
-	margin: 0 0 150px 0;
-	color: #48D1CC;
+	margin: 50px 0 250px;
+	color: #9ACD32;
 }
 .fullscreen__content {
 	font-size: 23px;
 	line-height: 24px;
-	color: #A52A2A;
+	color: #000080;
 	letter-spacing: 0.5px;
 }
 .fullscreen__button {
 	display: inline-block;
 	text-decoration: none;
-	color: #48D1CC;
+	color: #696969;
 	font-weight: 700;
 	background: #ADFF2F;
 	padding: 10px;
@@ -97,8 +100,9 @@ html, body{
 .content {
 	font-size: 17px;
 	line-height: 20px;
-	padding: 30px 0;
-	letter-spacing: 0.8px;
+}
+.content__body{
+	padding: 30px 20px;
 	position: relative;
 }
 .content p{
@@ -112,8 +116,8 @@ html, body{
 	color: #fff;
 	background: #696969;
 	position: absolute; 
-	right: 1%;
-	bottom: 1%;
+	right: 5px;
+	bottom: 10px;
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
