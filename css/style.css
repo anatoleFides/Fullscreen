@@ -38,7 +38,6 @@ html, body{
 .fullscreen {
 	min-height: 100vh;
 	padding: 20px 0;
-	background: url('../image/fullscreen.JPG') center / cover no-repeat;
 	display: flex;
 	text-align: center;
 }
@@ -48,19 +47,21 @@ html, body{
 	flex-direction: column;
 	justify-content: center;
 	padding: 0 40px;
+	position: relative;
 }
 .fullscreen__title {
 	font-size: 55px;
-	margin: 0 0 50px 0;
+	margin: 0 0 150px 0;
 	color: #48D1CC;
 }
 .fullscreen__content {
 	font-size: 23px;
 	line-height: 24px;
-	margin: 0 0 130px 0;
-	color: #4682B4;
+	color: #A52A2A;
+	letter-spacing: 0.5px;
 }
 .fullscreen__button {
+	display: inline-block;
 	text-decoration: none;
 	color: #48D1CC;
 	font-weight: 700;
@@ -70,12 +71,28 @@ html, body{
 	font-size: 25px;
 	text-transform: uppercase;
 	border-radius: 4px;
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.fullscreen_one{
+	background: url('../image/fullscreen_01.JPG') center / cover no-repeat;
 }
 .fullscreen_two{
-	background: url('../image/fullscreen_two.JPG') center / cover no-repeat;
+	background: url('../image/fullscreen_02.JPG') center / cover no-repeat fixed;
 }
-.fullscreen_bg{
-	background: url('../image/fullscreen_bg.JPG') center / cover no-repeat fixed;
+.fullscreen_three{
+	background: url('../image/fullscreen_03.JPG') center / cover no-repeat;
+}
+.fullscreen_four{
+	background: url('../image/fullscreen_04.JPG') 0 0 / cover no-repeat fixed;
+}
+.fullscreen_five{
+	background: url('../image/fullscreen_05.JPG') 0 bottom / cover no-repeat;
+}
+.fullscreen_six{
+	background: url('../image/fullscreen_06.JPG') 0 bottom / cover no-repeat fixed;
 }
 .content {
 	font-size: 17px;
