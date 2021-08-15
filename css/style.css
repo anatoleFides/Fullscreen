@@ -99,12 +99,35 @@ html, body{
 	line-height: 20px;
 	padding: 30px 0;
 	letter-spacing: 0.8px;
+	position: relative;
 }
 .content p{
 	margin: 0 0 20px 0;
 }
 .content p:last-child{
 	margin: 0;
+}
+.content__ancor{
+	font-size: 14px;
+	color: #fff;
+	background: #696969;
+	position: absolute; 
+	right: 1%;
+	bottom: 1%;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.content__ancor:before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 15px;
+	height: 15px;
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+	transform: translate(-50%, -25%) rotate(45deg);
 }
 .footer {
 	height: 40px;
@@ -113,4 +136,6 @@ html, body{
 	font-size: 20px;
 	letter-spacing: 2px;
 	text-align: center;
+	display: flex;
+	align-items: center;
 }
