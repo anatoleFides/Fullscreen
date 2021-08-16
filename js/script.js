@@ -1,4 +1,4 @@
-$ document.ready(function(){
+$(document).ready(function(){
 	var
 		screen = 0,
 		container = $('.wrapper'),
