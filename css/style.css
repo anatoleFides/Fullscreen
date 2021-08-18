@@ -25,7 +25,10 @@ html, body{
 	font-family: Arial;
 	color: #fff;
 }
-.wrapper {
+.wrapper{
+	height: 100%; /* для js */
+}
+.wrapper__body {
 	min-height: 100vh;
 	width: 100%; /* для js */
 	background: #9ACD32;

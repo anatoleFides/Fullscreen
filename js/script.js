@@ -1,11 +1,11 @@
 $(document).ready(function(){
 	var
 		screen = 0,
-		container = $('.wrapper'),
+		container = $('.wrapper__body'),
 		pages = $('.fullscreen'),
 		inscroll = false;
 	$('.fullscreen:first-child').addClass('active');
-	$('body').on('mousewhell'),function(event){
+	$('body').on('mousewheel',function(event){
 		var
 			activePage = pages.filter('.active');
 		if (!inscroll){
@@ -26,6 +26,11 @@ $(document).ready(function(){
 		container.css('top',position);
 		setTimeout(function(){
 			inscroll = false;
-		},1300);
-	}
+		},800);
+	});
 });
+// $(document).ready(function(){
+// 	$('body').on('mousewheel',function(event){
+// 		console.log(event.deltaY);
+// 	});
+// });
