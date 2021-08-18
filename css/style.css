@@ -19,24 +19,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
 html, body{
 	height: 100%;
-	width: 100%; /* для js */
 	font-size: 14px;
 	line-height: 20px;
 	font-family: Arial;
 	color: #fff;
 }
-.wrapper{
-	height: 100%; /* для js */
-}
-.wrapper__body {
+.wrapper {
 	min-height: 100vh;
-	width: 100%; /* для js */
-	background: #9ACD32;
 	display: flex;
 	flex-direction: column;
-	position: relative;
-	top: 0;
-	transition: top 1s;
+	justify-content: center;
+	background: #9ACD32;
 }
 .container{
 	max-width: 1000px;
@@ -45,7 +38,6 @@ html, body{
 }
 .fullscreen {
 	min-height: 100vh;
-	width: 100%; /* для js */
 	padding: 20px 0;
 	display: flex;
 	text-align: center;
@@ -88,19 +80,19 @@ html, body{
 	background: url('../image/fullscreen_01.JPG') center / cover no-repeat;
 }
 .fullscreen_two{
-	background: url('../image/fullscreen_02.JPG') center / cover no-repeat; /* fixed */
+	background: url('../image/fullscreen_02.JPG') center / cover no-repeat fixed; 
 }
 .fullscreen_three{
 	background: url('../image/fullscreen_03.JPG') center / cover no-repeat;
 }
 .fullscreen_four{
-	background: url('../image/fullscreen_04.JPG') 0 0 / cover no-repeat; /* fixed */
+	background: url('../image/fullscreen_04.JPG') 0 0 / cover no-repeat fixed; 
 }
 .fullscreen_five{
 	background: url('../image/fullscreen_05.JPG') 0 bottom / cover no-repeat;
 }
 .fullscreen_six{
-	background: url('../image/fullscreen_06.JPG') 0 bottom / cover no-repeat;/*fixed*/
+	background: url('../image/fullscreen_06.JPG') 0 bottom / cover no-repeat fixed;
 }
 .content {
 	font-size: 17px;
